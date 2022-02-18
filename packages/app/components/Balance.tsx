@@ -73,9 +73,8 @@ const Balance: React.FC<Props> = ({ lockToken, ...rest }) => {
       <div className={clsx(cls.wrapper, balance && lockToken && cls.hasLocked)}>
         <div className={cls.icon}>
           <img
-            src="/gno.svg"
-            width={32}
-            height={32}
+            src="/kitty.png"
+            width={38}
             alt={lockToken ? lockTokenName : tokenName}
           />
         </div>
