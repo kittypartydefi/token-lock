@@ -43,7 +43,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container} id="root">
       <Head>
-        <title>Lock GNO</title>
+        <title>Welcome to the Kittyverse!</title>
         <meta
           name="description"
           content="Qualify for a $COW airdrop boost by locking your GNO for 12 months"
@@ -86,69 +86,53 @@ const Home: NextPage = () => {
       <footer className={styles.footer}>
         <div className={styles.footerContainer}>
           <div className={styles.left}>
-            <span>LGNO contract: </span>
-            {connectedChainId === 100 ? (
-              <a
-                href="https://blockscout.com/xdai/mainnet/address/0xd4Ca39f78Bf14BfaB75226AC833b1858dB16f9a1"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="/etherscan.svg"
-                  alt="View contract on Gnosis Chain Blockscout"
-                  width={16}
-                  height={16}
-                />
-              </a>
-            ) : (
-              <a
-                href="https://etherscan.io/address/0x4f8AD938eBA0CD19155a835f617317a6E788c868"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src="/etherscan.svg"
-                  alt="View contract on Etherscan"
-                  width={16}
-                  height={16}
-                />
-              </a>
-            )}
-
-            <a
-              href="https://github.com/gnosis/token-lock/blob/master/packages/contracts/contracts/TokenLock.sol"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <img
-                src="/github.png"
-                alt="View contract source code on GitHub"
-                width={16}
-                height={16}
-              />
-            </a>
+            <span>© 2021 Kitty Party</span>
           </div>
           <div className={styles.right}>
             <a
-              href="https://discord.gg/2jnnJx3Y"
+              href="https://discord.gg/JwDwxkjmMZ"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="/discordicon.svg"
-                alt="Gnosis Guild Discord"
+                src="/Discord.svg"
+                alt="Discord"
                 width={16}
                 height={16}
               />
             </a>
             <a
-              href="https://twitter.com/gnosisguild"
+              href="https://github.com/kittypartydefi"
               target="_blank"
               rel="noopener noreferrer"
             >
               <img
-                src="/twittericon.svg"
-                alt="Gnosis Guild Twitter"
+                src="/Github.svg"
+                alt="GitHub"
+                width={16}
+                height={16}
+              />
+            </a>
+            <a
+              href="https://medium.com/@kittyparty"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/medium.svg"
+                alt="Medium"
+                width={16}
+                height={16}
+              />
+            </a>
+            <a
+              href="https://twitter.com/KittyPartyDefi"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/twitter.svg"
+                alt="Twitter"
                 width={16}
                 height={16}
               />

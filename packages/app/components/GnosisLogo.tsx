@@ -4,10 +4,9 @@ const GnosisLogo: React.FC = () => (
   <div className={cls.container}>
     <img
       className={cls.logo}
-      src="/gno.svg"
+      src="/kp-logo.png"
       alt="Gnosis Logo"
-      height={36}
-      width={36}
+      width={200}
     />
   </div>
 )

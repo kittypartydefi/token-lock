@@ -24,7 +24,7 @@
 }
 
 :root {
-  --navHeight: 66px;
+  --navHeight: 100px;
 }
 
 html,
@@ -33,14 +33,14 @@ body {
   margin: 0;
   font-family: Averta, sans-serif;
   font-size: 16px;
-  color: #001428;
-  background-color: #e8e7e6;
+  color: #380000;
+  background: url(../public/KittyPartyBGTile.png) 0 0/150px auto repeat;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-  color: #001428;
+  color: #380000;
 }
 
 button {

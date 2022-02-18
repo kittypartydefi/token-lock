@@ -10,7 +10,6 @@ const LockedGnoLogo: React.FC<Props> = ({ locked }) => (
     <span className={clsx(cls.logo, locked ? cls.locked : cls.unlocked)}>
       Lock
     </span>
-    <span className={cls.gno}> GNO</span>
   </h1>
 )
 
